@@ -49,7 +49,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 5%;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .about {
@@ -80,7 +80,7 @@ body {
     margin-inline: auto;
     display: flex;
     justify-content: center;
-    font-size: 0.7rem;
+    font-size: 1rem;
     gap: 12px;
 }
 
@@ -90,6 +90,7 @@ body {
     padding: 1%;
     font-weight: 600;
     color: lightgray;
+    font-size: 1rem;
 }
 
 .cart {
@@ -98,17 +99,18 @@ body {
     padding: 1%;
     position: relative;
     color: lightgray;
+    font-size: 1rem;
 }
 
 .number {
     background-color: red;
     color: white;
-    font-size: 0.4rem;
+    font-size: 0.7rem;
     position: absolute;
     width: 50%;
     height: 50%;
     border-radius: 50%;
-    top: 1%;
+    top: 5%;
     left: 80%;
     text-align: center;
 }
@@ -150,7 +152,7 @@ body {
     position: absolute;
     left: 4%;
     top: 25% ;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 800;
 }
 
@@ -195,28 +197,28 @@ body {
 
 .delet-up {
     /* background-color: lightpink; */
-    width: 22px;
-    height: 22px;   
-    border: 1px solid;
+    width: 2rem;
+    height: 2rem;   
+    border: 1.8px solid;
     border-radius: 50%;
     text-align: center;
     align-self: center;
     color: #63E6BE;
-    font-size: 0.6rem;
+    font-size: 1rem;
     position: relative;
 }
 
 #bin-up {
     position: absolute;
-    top: 28%;
-    right: 19%;
+    top: 20%;
+    right: 15%;
 }
 
 .left-up-middle {
     background-image: linear-gradient(to top right, rgb(87, 132, 227), rgb(192, 225, 241));
     color: white;
-    width: 30%;
-    height: 90%;
+    width: 28%;
+    height: 80%;
     border-radius: 16px;
     position: relative;
 
@@ -225,21 +227,29 @@ body {
 .doc-icon-up {
     background-color: white;
     color:rgb(87, 132, 227);
-    padding: 4%;
-    width: 1.8rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    padding: 1%;
     border: 1px solid white;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
     border-radius: 8px;
     position: absolute;
+    position: relative;
     top: 15%;
     left: 13%;
+}
+
+#docs {
+    position: absolute;
+    top: 20%;
+    right: 15%;
 }
 
 .google-docs {
     /* background-color: lightpink; */
     width: 80%;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     position: absolute;
     top: 50%;
     left: 8%;
@@ -248,7 +258,7 @@ body {
 .used-docs {
     /* background-color: lightpink; */
     width: 80%;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     position: absolute;
     top: 70%;
     left: 8%;
@@ -263,7 +273,7 @@ body {
 
 .docs-end {
     /* background-color: lightpink; */
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     position: absolute;
     top: 13%;
     left: 10%;
@@ -271,7 +281,7 @@ body {
 
 .circel-up {
     display: flex;
-    font-size: 0.8rem;
+    font-size: 1rem;
     position: absolute;
     top: 38%;
     left: 8%;
@@ -292,7 +302,7 @@ body {
 #level-docs {
     border: 1px solid white;
     border-radius: 2px;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     position: absolute;
     left: 110%;
 }
@@ -300,7 +310,7 @@ body {
 .docs-price {
     /* background-color: lightpink; */
     color: gray;
-    font-size: 0.7rem;
+    font-size: 1rem;
     position: absolute;
     top: 63%;
     left: 10%;
@@ -329,28 +339,28 @@ body {
 
 .delet-down {
     /* background-color: lightpink; */
-    width: 22px;
-    height: 22px;    
-    border: 1px solid;
+    width: 2rem;
+    height: 2rem;   
+    border: 1.8px solid;
     border-radius: 50%;
     text-align: center;
     align-self: center;
     color: #63E6BE;
-    font-size: 0.6rem;
+    font-size: 1rem;
     position: relative;
 }
 
 #bin-down {
     position: absolute;
-    top: 28%;
-    right: 19%;
+    top: 20%;
+    right: 15%;
 }
 
 .left-down-middle {
     background-image: linear-gradient(to top right, rgb(252, 118, 28), rgb(255, 199, 158));
     color: white;
-    width: 30%;
-    height: 90%;
+    width: 28%;
+    height: 80%;
     border-radius: 16px;
     position: relative;
 }
@@ -358,21 +368,29 @@ body {
 .doc-icon-down {
     background-color:white;
     color:  rgb(252, 118, 28);
-    padding: 4%;
-    width: 1.8rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    padding: 1%;
     border: 1px solid white;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
     border-radius: 8px;
     position: absolute;
+    position: relative;
     top: 15%;
     left: 13%;
+}
+
+#slides {
+    position: absolute;
+    top: 20%;
+    right: 15%;
 }
 
 .google-slides {
     /* background-color: lightpink; */
     width: 80%;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     position: absolute;
     top: 50%;
     left: 8%;
@@ -381,7 +399,7 @@ body {
 .used-slides {
     /* background-color: lightpink; */
     width: 80%;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     position: absolute;
     top: 70%;
     left: 8%;
@@ -396,7 +414,7 @@ body {
 
 .slides-end {
     /* background-color: lightpink; */
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     position: absolute;
     top: 13%;
     left: 10%;
@@ -404,7 +422,7 @@ body {
 
 .circel-down {
     display: flex;
-    font-size: 0.7rem;
+    font-size: 1rem;
     position: absolute;
     top: 38%;
     left: 8%;
@@ -431,7 +449,7 @@ body {
 #level-slides {
     border: 1px solid white;
     border-radius: 2px;
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     position: absolute;
     left: 110%;
 }
@@ -439,7 +457,7 @@ body {
 .slides-price {
     /* background-color: lightpink; */
     color: gray;
-    font-size: 0.7rem;
+    font-size: 1rem;
     position: absolute;
     top: 63%;
     left: 10%;
@@ -471,7 +489,7 @@ body {
     position: absolute;
     top: 25%;
     left: 1%;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
@@ -491,7 +509,7 @@ body {
      height: 75%;
      padding: 1%;
      text-align: center center;
-     font-size: 0.8rem;
+     font-size: 1rem;
      color: rgb(159, 158, 158);
      font-weight: 400;
 
@@ -503,7 +521,7 @@ body {
     height: 75%;
     padding: 1%;
     text-align: right;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
     color: gray;
 
@@ -528,7 +546,7 @@ body {
     position: absolute;
     top: 18%;
     left: 2.5%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     align-self: center;
     
 }
@@ -542,7 +560,7 @@ body {
     left: 10%;
     align-self: center;
     padding: 1.5%;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 
 #apply {
@@ -554,7 +572,7 @@ body {
     top: 25%;
     right: 1%;
     color: #63E6BE;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     padding: 1.5%;
     font-weight: 600;
     
@@ -585,7 +603,7 @@ body {
     position: absolute;
     top: 20%;
     left: 1%;
-    font-size: 0.65rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -594,7 +612,7 @@ body {
     position: absolute;
     right: 2%;
     color: #63E6BE;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     top: 10%;
 }
@@ -608,7 +626,7 @@ body {
     padding: 2.5%;
     top: 50%;
     left: 2%;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
