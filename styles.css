@@ -1,0 +1,614 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+.container {
+    /* background-color: lightgreen; */
+    width: 100vw;
+    height: 100vh;
+    margin-inline: auto;
+}
+
+.navbar {
+    /* background-color: lightsalmon; */
+    width: 95%;
+    height: 12%;
+    margin-top: 5px;
+    margin-inline: auto;
+    border-bottom: 0.5px solid;
+    display: flex;
+}
+
+.navbar-begin {
+    /* background-color: lightblue; */
+    width: 20%;
+    height: 80%;
+    margin-inline: auto;
+    display: flex;
+}
+
+.logo {
+    /* background-color: rgb(212, 130, 237); */
+    width: 75%;
+    height: 90%;
+    align-self: auto;
+    margin-inline: auto;
+}
+
+.navbar-middle {
+    /* background-color: lightblue; */
+    width: 40%;
+    height: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    font-size: 0.7rem;
+}
+
+.about {
+    /* background-color:  rgb(212, 130, 237);  */
+    align-self: center;
+    padding: 1%;
+    font-weight: 600;
+}
+
+.passcard {
+    /* background-color:  rgb(212, 130, 237); */
+    align-self: center;  
+    padding: 1%;
+    font-weight: 600;
+}
+
+.profile {
+    /* background-color:  rgb(212, 130, 237); */
+    align-self: center;  
+    padding: 1%;
+     font-weight: 600;
+}
+
+.navbar-end {
+    /* background-color: lightblue; */
+    width: 25%;
+    height: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    gap: 12px;
+}
+
+.search {
+    /* background-color:  rgb(212, 130, 237); */
+    align-self: center;
+    padding: 1%;
+    font-weight: 600;
+    color: lightgray;
+}
+
+.cart {
+    /* background-color:  rgb(212, 130, 237); */
+    align-self: center;
+    padding: 1%;
+    position: relative;
+    color: lightgray;
+}
+
+.number {
+    background-color: red;
+    color: white;
+    font-size: 0.4rem;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    top: 1%;
+    left: 80%;
+    text-align: center;
+}
+
+.login {
+    /* background-color:  rgb(212, 130, 237); */
+    align-self: center;
+    padding: 1%;
+    font-weight: 600;
+}
+
+.signup {
+    /* background-color:  rgb(212, 130, 237); */
+    align-self: center;
+    padding: 1%;
+    font-weight: 600;
+}
+
+.shopping {
+    /* background-color: lightsalmon; */
+    width: 95%;
+    height: 80%;
+    display: block;
+    margin-inline: auto;
+    margin-top: 12px;
+}
+
+.shopping-head {
+    /* background-color: lightblue; */
+    width: 95%;
+    height: 15%;
+    margin-inline: auto;
+    position: relative;
+}
+
+.mycart {
+    /* background-color:  rgb(212, 130, 237); */
+    padding: 0.5%;
+    position: absolute;
+    left: 4%;
+    top: 25% ;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.shopping-body {
+    /* background-color: lightblue; */
+    width: 95%;
+    height: 75%;
+    margin-inline: auto;
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-left {
+    /* background-color:  rgb(212, 130, 237); */
+    width: 45%;
+    height: 100%;
+    margin-inline: auto;
+    display: block;
+    align-self: center;
+}
+
+.body-left-up {
+    /* background-color: lightcoral; */
+    width: 100%;
+    height: 45%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.8rem;
+    border: 1px solid lightgray;
+}
+
+.left-up-begin {
+    /* background-color: lightyellow; */
+    width: 10%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.delet-up {
+    /* background-color: lightpink; */
+    width: 22px;
+    height: 22px;   
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    align-self: center;
+    color: #63E6BE;
+    font-size: 0.6rem;
+    position: relative;
+}
+
+#bin-up {
+    position: absolute;
+    top: 28%;
+    right: 19%;
+}
+
+.left-up-middle {
+    background-image: linear-gradient(to top right, rgb(87, 132, 227), rgb(192, 225, 241));
+    color: white;
+    width: 30%;
+    height: 90%;
+    border-radius: 16px;
+    position: relative;
+
+}
+
+.doc-icon-up {
+    background-color: white;
+    color:rgb(87, 132, 227);
+    padding: 4%;
+    width: 1.8rem;
+    border: 1px solid white;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+}
+
+.google-docs {
+    /* background-color: lightpink; */
+    width: 80%;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+
+.used-docs {
+    /* background-color: lightpink; */
+    width: 80%;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 70%;
+    left: 8%;
+}
+
+.left-up-end {
+    /* background-color: lightyellow; */
+    width: 35%;
+    height: 85%;
+    position: relative;
+}
+
+.docs-end {
+    /* background-color: lightpink; */
+    font-size: 0.8rem;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+
+.circel-up {
+    display: flex;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 38%;
+    left: 8%;
+}
+
+.circel-up1 {
+    color: #63E6BE;
+}
+
+.circel-up2 {
+    color: #E1E8E5;
+}
+
+.circel-up3 {
+    color: #E1E8E5;
+}
+
+#level-docs {
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 0.6rem;
+    position: absolute;
+    left: 110%;
+}
+
+.docs-price {
+    /* background-color: lightpink; */
+    color: gray;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 63%;
+    left: 10%;
+}
+
+.body-left-down {
+    /* background-color: lightcoral; */
+    width: 100%;
+    height: 45%;
+    margin-inline: auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.8rem;
+    border: 1px solid lightgray;
+}
+
+.left-down-begin {
+    /* background-color: lightyellow; */
+    width: 10%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.delet-down {
+    /* background-color: lightpink; */
+    width: 22px;
+    height: 22px;    
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    align-self: center;
+    color: #63E6BE;
+    font-size: 0.6rem;
+    position: relative;
+}
+
+#bin-down {
+    position: absolute;
+    top: 28%;
+    right: 19%;
+}
+
+.left-down-middle {
+    background-image: linear-gradient(to top right, rgb(252, 118, 28), rgb(255, 199, 158));
+    color: white;
+    width: 30%;
+    height: 90%;
+    border-radius: 16px;
+    position: relative;
+}
+
+.doc-icon-down {
+    background-color:white;
+    color:  rgb(252, 118, 28);
+    padding: 4%;
+    width: 1.8rem;
+    border: 1px solid white;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 8px;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+}
+
+.google-slides {
+    /* background-color: lightpink; */
+    width: 80%;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+}
+
+.used-slides {
+    /* background-color: lightpink; */
+    width: 80%;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 70%;
+    left: 8%;
+}
+
+.left-down-end {
+    /* background-color: lightyellow; */
+    width: 35%;
+    height: 85%;
+    position: relative;
+}
+
+.slides-end {
+    /* background-color: lightpink; */
+    font-size: 0.8rem;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+
+.circel-down {
+    display: flex;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 38%;
+    left: 8%;
+}
+
+.circel-down1 {
+    color: #63E6BE;
+}
+
+.circel-down2 {
+    color: #63E6BE;
+}
+
+.circel-down3 {
+    color: #63E6BE;
+
+}
+
+.circel-down4 {
+    color: #E1E8E5;
+
+}
+
+#level-slides {
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 0.6rem;
+    position: absolute;
+    left: 110%;
+}
+
+.slides-price {
+    /* background-color: lightpink; */
+    color: gray;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 63%;
+    left: 10%;
+}
+
+.body-right {
+    /* background-color:  rgb(212, 130, 237); */
+    width: 40%;
+    height: 80%;
+    margin-inline: auto;
+    border: 1px solid lightgray;
+    border-radius: 0.8rem;
+}
+
+.body-right-st {
+    /* background-color: lightcoral; */
+    width: 90%;
+    height: 12%;
+    margin-inline: auto;
+    align-self: center;
+    margin-top: 2%;
+    position: relative;
+
+}
+
+.order-info {
+    /* background-color: lightyellow; */
+    width: 96%;
+    position: absolute;
+    top: 25%;
+    left: 1%;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.body-right-nd {
+    /* background-color: lightcoral; */
+    width: 90%;
+    height: 12%;
+    margin-inline: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.subtotal {
+     /* background-color: lightyellow; */
+     width: 18%;
+     height: 75%;
+     padding: 1%;
+     text-align: center center;
+     font-size: 0.8rem;
+     color: rgb(159, 158, 158);
+     font-weight: 400;
+
+}
+
+.price {
+    /* background-color: lightyellow; */
+    width: 20%;
+    height: 75%;
+    padding: 1%;
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: gray;
+
+}
+
+.body-right-rd {
+    /* background-color: lightcoral; */
+    width: 90%;
+    height: 15%;
+    margin-inline: auto;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.fa-ticket-simple {
+    /* background-color: lightyellow; */
+    height: 40%;
+    margin-top: 2%;
+    position: absolute;
+    top: 18%;
+    left: 2.5%;
+    font-size: 0.8rem;
+    align-self: center;
+    
+}
+
+#promotion-code {
+    /* background-color: lightyellow; */
+    border: solid 1px lightgray;
+    width: 62%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    align-self: center;
+    padding: 1.5%;
+    font-size: 0.6rem;
+}
+
+#apply {
+    background-color: white;
+    border: solid 1px #63E6BE;
+    width: 25%;
+    border-radius: 10px;
+    position: absolute;
+    top: 25%;
+    right: 1%;
+    color: #63E6BE;
+    font-size: 0.6rem;
+    padding: 1.5%;
+    font-weight: 600;
+    
+}
+
+.body-right-4th {
+    /* background-color: lightcoral; */
+    width: 90%;
+    height: 45%;
+    margin-inline: auto;
+    margin-top: 4%;
+    position: relative;
+    border-top: 1px solid lightgray;
+}
+
+.total {
+    /* background-color: lightyellow; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    position: relative;
+    position: absolute;
+    top: 15%;
+}
+
+.total-payment {
+    /* background-color: lightpink; */
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.total-price {
+    /* background-color: lightpink; */
+    position: absolute;
+    right: 2%;
+    color: #63E6BE;
+    font-size: 1rem;
+    font-weight: 600;
+    top: 10%;
+}
+
+#checkout {
+    background-color: #63E6BE;
+    position: absolute;
+    border: solid 1px #63E6BE;
+    border-radius: 10px ;
+    width: 95%;
+    padding: 2.5%;
+    top: 50%;
+    left: 2%;
+    font-size: 0.5rem;
+    font-weight: 600;
+}
+

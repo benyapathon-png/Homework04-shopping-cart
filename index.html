@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+    <title>Homework04 : Shopping-cart page</title>
+</head>
+<body>
+    <h1>Homework04 : Shopping-cart page</h1>
+    <hr>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-begin">
+                <img class="logo" src="./pics/Logo.webp" alt="Logo">
+            </div>
+            <div class="navbar-middle">
+                <div class="about">ABOUT US</div>
+                <div class="passcard">PASSCARD</div>
+               <div class="profile">PROFILE</div>
+            </div>
+            <div class="navbar-end">
+                <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="cart"><i class="fa-solid fa-cart-shopping"></i>
+                <div class="number">3</div>
+                </div>
+                <div class="login">LOGIN</div>
+                <div class="signup">SINGUP</div>
+            </div>
+        </div>
+
+        <div class="shopping">
+            <div class="shopping-head">
+                <div class="mycart">My Cart</div>
+            </div>
+            <div class="shopping-body">
+                <div class="body-left">
+                    <div class="body-left-up">
+                        <div class="left-up-begin">
+                            <div class="delet-up"><i id="bin-up" class="fa-regular fa-trash-can"></i></div>
+                        </div>
+                        <div class="left-up-middle">
+                            <div class="doc-icon-up"><i class="fa-regular fa-file-lines"></i></div>
+                            <div class="google-docs">Google Docs</div>
+                            <div class="used-docs">Used for business</div>
+                        </div>
+                        <div class="left-up-end">
+                            <div class="docs-end">Google Docs</div>
+                            <div class="circel-up">
+                                <div class="circel-up1"><i class="fa-solid fa-circle"></i></div>
+                                <div class="circel-up2"><i class="fa-solid fa-circle"></i></div>
+                                <div class="circel-up3"><i class="fa-solid fa-circle"></i></div>
+                                <select id="level-docs">
+                                    <option value="lv1-3">LV 1-3</option>
+                                    <option value="lv2-3">LV 2-3</option>
+                                    <option value="lv3-3">LV 3-3</option>
+                            </select>
+                            </div>
+                            <div class="docs-price">THB 150</div>
+                        </div>
+                    </div>
+                    <div class="body-left-down">
+                        <div class="left-down-begin">
+                            <div class="delet-down"><i id="bin-down" class="fa-regular fa-trash-can"></i></div>
+                        </div>
+                        <div class="left-down-middle">
+                            <div class="doc-icon-down"><i class="fa-regular fa-file-lines"></i></div>
+                            <div class="google-slides">Google Slides</div>
+                            <div class="used-slides">Used for business</div>
+                        </div>
+                        <div class="left-down-end">
+                            <div class="slides-end">Google Slides</div>
+                            <div class="circel-down">
+                                <div class="circel-down1"><i class="fa-solid fa-circle"></i></div>
+                                <div class="circel-down2"><i class="fa-solid fa-circle"></i></div>
+                                <div class="circel-down3"><i class="fa-solid fa-circle"></i></div>
+                                <div class="circel-down4"><i class="fa-solid fa-circle"></i></div>
+                                <select id="level-slides">
+                                    <option value="lv1-4">LV 1-4</option>
+                                    <option value="lv2-4">LV 2-4</option>
+                                    <option value="lv3-4">LV 3-4</option>
+                                    <option value="lv4-4">LV 4-4</option>
+                                </select>
+                            </div>
+                            <div class="slides-price">THB 150</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body-right">
+                    <div class="body-right-st">
+                        <div class="order-info">Order info</div>
+                    </div>
+                    <div class="body-right-nd">
+                        <div class="subtotal">Subtotal</div>
+                        <div class="price">THB 300</div>
+                    </div>
+                    <div class="body-right-rd">
+                       <i class="fa-solid fa-ticket-simple" style ="color:#63E6BE;"></i>
+                       <div class="promotion-code"><input type="text" id="promotion-code" placeholder="Promotion Code"></div>
+                       <div class="apply"><button id = "apply">APPLY</button></div>
+                    </div>
+                    <div class="body-right-4th">
+                        <div class="total">
+                            <p class = "total-payment">Total payment</p>
+                            <p class = "total-price">THB 300</p>
+                        </div>
+                        <div class="check"><button id ="checkout"> LOG IN TO CHECKOUT</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
